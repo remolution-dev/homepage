@@ -71,13 +71,9 @@ function Header({
         >
           <Logomark
             className="h-8 sm:hidden"
-            invert={invert}
-            filled={logoHovered}
           />
           <Logo
             className="hidden h-8 sm:block"
-            invert={invert}
-            filled={logoHovered}
           />
         </Link>
         <div className="flex items-center gap-x-8">
@@ -143,7 +139,7 @@ function Navigation() {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
+        {/* <NavigationItem href="/work">Our Work</NavigationItem> */}
         <NavigationItem href="/about">About Us</NavigationItem>
       </NavigationRow>
       <NavigationRow>
